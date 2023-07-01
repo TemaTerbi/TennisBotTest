@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65E116CE2A4F792900ABA7F8 /* TennisBotTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E116CD2A4F792900ABA7F8 /* TennisBotTestApp.swift */; };
+		65E116D02A4F792900ABA7F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E116CF2A4F792900ABA7F8 /* ContentView.swift */; };
+		65E116D22A4F792B00ABA7F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E116D12A4F792B00ABA7F8 /* Assets.xcassets */; };
+		65E116D52A4F792B00ABA7F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65E116D42A4F792B00ABA7F8 /* Preview Assets.xcassets */; };
+		65E116E12A4F798100ABA7F8 /* InfoUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E116E02A4F798100ABA7F8 /* InfoUserView.swift */; };
+		65E116E32A4F799100ABA7F8 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E116E22A4F799100ABA7F8 /* ColorExtension.swift */; };
+		65E116E52A4F7BA900ABA7F8 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E116E42A4F7BA900ABA7F8 /* MainViewModel.swift */; };
+		65E116E82A4F7D6400ABA7F8 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E116E72A4F7D6400ABA7F8 /* CustomTextField.swift */; };
+		65E116EA2A4F801C00ABA7F8 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E116E92A4F801C00ABA7F8 /* CustomButton.swift */; };
+		65E116EC2A4F83CA00ABA7F8 /* QuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E116EB2A4F83CA00ABA7F8 /* QuestionsView.swift */; };
+		65E116EE2A4F849400ABA7F8 /* StatusLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E116ED2A4F849400ABA7F8 /* StatusLine.swift */; };
+		65E116F02A4F90E300ABA7F8 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E116EF2A4F90E300ABA7F8 /* Question.swift */; };
+		65E116F22A4F911900ABA7F8 /* ChoseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E116F12A4F911900ABA7F8 /* ChoseButton.swift */; };
+		65E116F52A4F917800ABA7F8 /* ChoseeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E116F42A4F917800ABA7F8 /* ChoseeModel.swift */; };
+		65E116F82A5021B000ABA7F8 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 65E116F72A5021B000ABA7F8 /* Alamofire */; };
+		65E116FB2A5021C900ABA7F8 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E116FA2A5021C900ABA7F8 /* ApiManager.swift */; };
+		65E116FD2A50343400ABA7F8 /* PhoneModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E116FC2A50343400ABA7F8 /* PhoneModel.swift */; };
+		65E117002A5037A500ABA7F8 /* ConfirmCodeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E116FF2A5037A500ABA7F8 /* ConfirmCodeModel.swift */; };
+		65E117022A505C3500ABA7F8 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E117012A505C3500ABA7F8 /* ResultView.swift */; };
+		65E117042A50605B00ABA7F8 /* ResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E117032A50605B00ABA7F8 /* ResultModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65E116CA2A4F792900ABA7F8 /* TennisBotTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TennisBotTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65E116CD2A4F792900ABA7F8 /* TennisBotTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisBotTestApp.swift; sourceTree = "<group>"; };
+		65E116CF2A4F792900ABA7F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		65E116D12A4F792B00ABA7F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65E116D42A4F792B00ABA7F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		65E116E02A4F798100ABA7F8 /* InfoUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoUserView.swift; sourceTree = "<group>"; };
+		65E116E22A4F799100ABA7F8 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		65E116E42A4F7BA900ABA7F8 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		65E116E72A4F7D6400ABA7F8 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		65E116E92A4F801C00ABA7F8 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		65E116EB2A4F83CA00ABA7F8 /* QuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsView.swift; sourceTree = "<group>"; };
+		65E116ED2A4F849400ABA7F8 /* StatusLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusLine.swift; sourceTree = "<group>"; };
+		65E116EF2A4F90E300ABA7F8 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		65E116F12A4F911900ABA7F8 /* ChoseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoseButton.swift; sourceTree = "<group>"; };
+		65E116F42A4F917800ABA7F8 /* ChoseeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoseeModel.swift; sourceTree = "<group>"; };
+		65E116FA2A5021C900ABA7F8 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		65E116FC2A50343400ABA7F8 /* PhoneModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneModel.swift; sourceTree = "<group>"; };
+		65E116FE2A50372700ABA7F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		65E116FF2A5037A500ABA7F8 /* ConfirmCodeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmCodeModel.swift; sourceTree = "<group>"; };
+		65E117012A505C3500ABA7F8 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		65E117032A50605B00ABA7F8 /* ResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65E116C72A4F792900ABA7F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E116F82A5021B000ABA7F8 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65E116C12A4F792900ABA7F8 = {
+			isa = PBXGroup;
+			children = (
+				65E116CC2A4F792900ABA7F8 /* TennisBotTest */,
+				65E116CB2A4F792900ABA7F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65E116CB2A4F792900ABA7F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65E116CA2A4F792900ABA7F8 /* TennisBotTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65E116CC2A4F792900ABA7F8 /* TennisBotTest */ = {
+			isa = PBXGroup;
+			children = (
+				65E116FE2A50372700ABA7F8 /* Info.plist */,
+				65E116F92A5021BA00ABA7F8 /* Networking */,
+				65E116F32A4F916B00ABA7F8 /* Models */,
+				65E116E62A4F7D4B00ABA7F8 /* Components */,
+				65E116DD2A4F795D00ABA7F8 /* ViewModels */,
+				65E116DC2A4F795300ABA7F8 /* Views */,
+				65E116DB2A4F794B00ABA7F8 /* Extensions */,
+				65E116CD2A4F792900ABA7F8 /* TennisBotTestApp.swift */,
+				65E116CF2A4F792900ABA7F8 /* ContentView.swift */,
+				65E116D12A4F792B00ABA7F8 /* Assets.xcassets */,
+				65E116D32A4F792B00ABA7F8 /* Preview Content */,
+			);
+			path = TennisBotTest;
+			sourceTree = "<group>";
+		};
+		65E116D32A4F792B00ABA7F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				65E116D42A4F792B00ABA7F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		65E116DB2A4F794B00ABA7F8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				65E116E22A4F799100ABA7F8 /* ColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		65E116DC2A4F795300ABA7F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				65E116E02A4F798100ABA7F8 /* InfoUserView.swift */,
+				65E116EB2A4F83CA00ABA7F8 /* QuestionsView.swift */,
+				65E117012A505C3500ABA7F8 /* ResultView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		65E116DD2A4F795D00ABA7F8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				65E116E42A4F7BA900ABA7F8 /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		65E116E62A4F7D4B00ABA7F8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				65E116E72A4F7D6400ABA7F8 /* CustomTextField.swift */,
+				65E116E92A4F801C00ABA7F8 /* CustomButton.swift */,
+				65E116ED2A4F849400ABA7F8 /* StatusLine.swift */,
+				65E116EF2A4F90E300ABA7F8 /* Question.swift */,
+				65E116F12A4F911900ABA7F8 /* ChoseButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		65E116F32A4F916B00ABA7F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				65E116F42A4F917800ABA7F8 /* ChoseeModel.swift */,
+				65E116FC2A50343400ABA7F8 /* PhoneModel.swift */,
+				65E116FF2A5037A500ABA7F8 /* ConfirmCodeModel.swift */,
+				65E117032A50605B00ABA7F8 /* ResultModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		65E116F92A5021BA00ABA7F8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				65E116FA2A5021C900ABA7F8 /* ApiManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65E116C92A4F792900ABA7F8 /* TennisBotTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65E116D82A4F792B00ABA7F8 /* Build configuration list for PBXNativeTarget "TennisBotTest" */;
+			buildPhases = (
+				65E116C62A4F792900ABA7F8 /* Sources */,
+				65E116C72A4F792900ABA7F8 /* Frameworks */,
+				65E116C82A4F792900ABA7F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TennisBotTest;
+			packageProductDependencies = (
+				65E116F72A5021B000ABA7F8 /* Alamofire */,
+			);
+			productName = TennisBotTest;
+			productReference = 65E116CA2A4F792900ABA7F8 /* TennisBotTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65E116C22A4F792900ABA7F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					65E116C92A4F792900ABA7F8 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 65E116C52A4F792900ABA7F8 /* Build configuration list for PBXProject "TennisBotTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65E116C12A4F792900ABA7F8;
+			packageReferences = (
+				65E116F62A5021B000ABA7F8 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 65E116CB2A4F792900ABA7F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65E116C92A4F792900ABA7F8 /* TennisBotTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65E116C82A4F792900ABA7F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E116D52A4F792B00ABA7F8 /* Preview Assets.xcassets in Resources */,
+				65E116D22A4F792B00ABA7F8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65E116C62A4F792900ABA7F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65E116F52A4F917800ABA7F8 /* ChoseeModel.swift in Sources */,
+				65E116E52A4F7BA900ABA7F8 /* MainViewModel.swift in Sources */,
+				65E117002A5037A500ABA7F8 /* ConfirmCodeModel.swift in Sources */,
+				65E116E12A4F798100ABA7F8 /* InfoUserView.swift in Sources */,
+				65E116E82A4F7D6400ABA7F8 /* CustomTextField.swift in Sources */,
+				65E117022A505C3500ABA7F8 /* ResultView.swift in Sources */,
+				65E116D02A4F792900ABA7F8 /* ContentView.swift in Sources */,
+				65E116EC2A4F83CA00ABA7F8 /* QuestionsView.swift in Sources */,
+				65E116F02A4F90E300ABA7F8 /* Question.swift in Sources */,
+				65E116F22A4F911900ABA7F8 /* ChoseButton.swift in Sources */,
+				65E116FD2A50343400ABA7F8 /* PhoneModel.swift in Sources */,
+				65E116FB2A5021C900ABA7F8 /* ApiManager.swift in Sources */,
+				65E116EA2A4F801C00ABA7F8 /* CustomButton.swift in Sources */,
+				65E116CE2A4F792900ABA7F8 /* TennisBotTestApp.swift in Sources */,
+				65E116E32A4F799100ABA7F8 /* ColorExtension.swift in Sources */,
+				65E117042A50605B00ABA7F8 /* ResultModel.swift in Sources */,
+				65E116EE2A4F849400ABA7F8 /* StatusLine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		65E116D62A4F792B00ABA7F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65E116D72A4F792B00ABA7F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65E116D92A4F792B00ABA7F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TennisBotTest/Preview Content\"";
+				DEVELOPMENT_TEAM = Y67XYRV445;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TennisBotTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "artem-solovev.TennisBotTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65E116DA2A4F792B00ABA7F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TennisBotTest/Preview Content\"";
+				DEVELOPMENT_TEAM = Y67XYRV445;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TennisBotTest/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "artem-solovev.TennisBotTest";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65E116C52A4F792900ABA7F8 /* Build configuration list for PBXProject "TennisBotTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E116D62A4F792B00ABA7F8 /* Debug */,
+				65E116D72A4F792B00ABA7F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65E116D82A4F792B00ABA7F8 /* Build configuration list for PBXNativeTarget "TennisBotTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65E116D92A4F792B00ABA7F8 /* Debug */,
+				65E116DA2A4F792B00ABA7F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		65E116F62A5021B000ABA7F8 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		65E116F72A5021B000ABA7F8 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 65E116F62A5021B000ABA7F8 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 65E116C22A4F792900ABA7F8 /* Project object */;
+}
